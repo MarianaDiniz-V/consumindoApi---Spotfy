@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    padding: 50px;
+}
+
+input{
+    all: unset;
+
+    border: 1px solid aqua;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 40px;
+    border-radius: 20px;
+
+    width: 500px;
+
+    background-color: #000000f6;
+    color: #FFFFFF;
+
+    font-size: 18px;
+}
+.card{
+    display: flex;
+    justify-content: flex-start;
+
+    margin: 10px;
+}
+.infos{
+    margin: 15px;
+}
